@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.fastcampus'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+
+}
+
+test {
+    useJUnitPlatform()
+}
